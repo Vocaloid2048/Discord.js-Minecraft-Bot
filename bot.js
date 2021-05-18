@@ -51,7 +51,7 @@ client.on('message', async message => {
 	// Server 
 	var SERVER_PATH
 	var SERVER_HOST = "192.168.0.1"
-	var SERVER_HOST_NAME = "google.com"
+	var SERVER_HOST_NAME = "google.com" // Change to your host name (Better to use domain name since it's public to everyone)
 	var SERVER_PORT = 25565 // SERVER Port
 	// Rcon -> Remember to switch on RCON + Query function First
 	var RCON_PORT = 25575 // RCON Port 
