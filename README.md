@@ -4,10 +4,10 @@ A Discord Bot base on Discord.js, which aimed to help user control the Minecraft
 
 ## Setup
 
-1. [File Setup](#file setup)
-2. [Discord Dev Setup](#discord dev setup)
-3. [Server & bot.js Setup](#server & bot.js setup)
-4. [Discord Channel Setup](#discord channel setup)
+1. [File Setup](#file-setup)
+2. [Discord Dev Setup](#discord-dev-setup)
+3. [Server & bot.js Setup](#server-&-bot.js-setup)
+4. [Discord Channel Setup](#discord-channel-setup)
 
 ## Commands
 
@@ -15,17 +15,17 @@ A Discord Bot base on Discord.js, which aimed to help user control the Minecraft
 2. [%start](#start)
 3. [%stop](#stop)
 4. [%end](#end)
-5. [Server Commands](#Server Commands)
+5. [Server Commands](#Server-Commands)
 
 
 
-### File Setup
+### File-Setup
 
 1. Please install `node.js` to the device that you will run the bot first -> https://nodejs.org/en/
 2. Download the zip file from Github -> [Vocaloid2048](https://github.com/Vocaloid2048)/**Discord.js-Minecraft-Bot**
 3. Unzip it into a new folder -> In the device that you want to run this bot
 
-### Discord Dev Setup
+### Discord-Dev-Setup
 
 1. Please visit https://discord.com/developers/applications to create a new Application
 2. Enter the `name` of the Application (Just name it as you like ~) [Team just need to choose "Personal"]
@@ -36,7 +36,7 @@ A Discord Bot base on Discord.js, which aimed to help user control the Minecraft
 7. Copy the `TOKEN` by click the "COPY" Button
 8. If you want to customize a invite link, you may use the *Bot Permissions* at the bottom
 
-### Server & bot.js Setup
+### Server-&-bot.js-Setup
 
 1. Make sure that you have already setup the Minecraft Server, and copy the path of it
 
@@ -70,7 +70,7 @@ A Discord Bot base on Discord.js, which aimed to help user control the Minecraft
 
    #### Congrats ! You have done 90% work !!!
 
-### Discord Channel Setup
+### Discord-Channel-Setup
 
 1. Please send the invite link to the Discord Server Admin (You may use the demo invite link in `invite.txt`)
 2. Accept and invite the bot join your channel
@@ -123,7 +123,7 @@ Simply type `%end <USERNAME> <PASSWORD>` to kill this bot
 
 **Your message will be deleted after send into a channel to protect your personal pravicy**
 
-### Server Commands
+### Server-Commands
 
 Simply type `/` to straightly type commands via RCON (You must in the OP List in the bot [Please add it via edit the bot.js])
 
