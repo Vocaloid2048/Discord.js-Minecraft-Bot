@@ -1,0 +1,30 @@
+{
+  "name": "voc.net.tools.mcbot.js",
+  "version": "1.0.0",
+  "description": "Minecraft Server Helper",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vocaloid2048",
+  "license": "ISC",
+  "dependencies": {
+    "@calmdownval/mc-rcon": "^1.0.0",
+    "@calmdownval/signal": "^1.0.3",
+    "discord.io": "github:woor/discord.io#gateway_v6",
+    "discord.js": "^12.5.3",
+    "http-post": "^0.1.1",
+    "minecraft-rcon": "^1.0.4",
+    "minecraft-server-util": "^3.5.1",
+    "modern-rcon": "^1.0.3",
+    "node-ssh": "^11.1.1",
+    "path": "^0.12.7",
+    "rcon": "^1.0.3",
+    "rcon-client": "^4.2.3",
+    "rcon-client-fork": "^3.2.0",
+    "rcon-server": "^0.1.1",
+    "srcds-rcon": "^2.2.1",
+    "ssh2": "^0.8.9",
+    "ssh2shell": "^1.9.4"
+  }
+}

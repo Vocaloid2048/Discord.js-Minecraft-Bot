@@ -1,0 +1,51 @@
+{
+    "env": {
+        "node": true,
+        "es2021": true
+    },
+    "extends": [
+        // "eslint:all",
+        "eslint:recommended"
+    ],
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module",
+        "babelOptions": {
+            "configFile": "./.babelrc"
+        }
+    },
+    "rules": {
+        "indent": [2, 4],
+        "quotes": [2, "single", {"allowTemplateLiterals": true}],
+        "semi": [2, "always"],
+        "keyword-spacing": [2, {"before": true, "after": true}],
+        "eqeqeq": [2, "always"],
+        "comma-spacing": [2, {"before": false, "after": true}],
+        "brace-style": [2, "1tbs"],
+        "curly": [2, "all"],
+        "operator-linebreak": [2, "before"],
+        "camelcase": [2, {"properties": "always"}],
+        "comma-dangle": [2, "always-multiline"],
+        "dot-location": [2, "property"],
+        "eol-last": [2, "always"],
+        "func-call-spacing": [2, "never"],
+        "new-parens": [2, "always"],
+        "no-duplicate-imports": [2, {"includeExports": true}],
+        "no-extend-native": "error",
+        "object-curly-spacing": [2, "always"],
+        "template-curly-spacing": [2, "never"],
+        "arrow-spacing": "error",
+        "space-before-function-paren": [
+            2,
+            {
+                "anonymous": "never",
+                "named": "never",
+                "asyncArrow": "always"
+            }
+        ],
+        "key-spacing": [2, {"beforeColon": false, "afterColon": true}],
+        "no-empty": [2, {"allowEmptyCatch": true}],
+        "no-unused-vars": [2, {"args": "after-used", "argsIgnorePattern": "^_"}]
+    }
+}
